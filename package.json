@@ -1,0 +1,25 @@
+{
+  "name": "fincajornal",
+  "version": "1.0.0",
+  "description": "Sistema de Administración de Jornales para Fincas",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "predeploy": "npm run build",
+    "deploy": "firebase deploy",
+    "deploy:hosting": "firebase deploy --only hosting",
+    "start": "firebase serve"
+  },
+  "keywords": [
+    "finca",
+    "jornal",
+    "administracion"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "firebase-tools": "^11.25.2"
+  },
+  "dependencies": {}
+}
